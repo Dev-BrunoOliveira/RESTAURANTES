@@ -9,9 +9,9 @@
    
     --cor-fundo: #000000;
     --cor-texto: #ffffff;
-    --cor-destaque: #9e0eca;
-    --cor-destaque-hover: #3b0449;
-    --cor-sombra: rgba(255, 255, 255, 0.5);
+    --cor-destaque: #fa0c0c;
+    --cor-destaque-hover: #d10b0b;
+    --cor-sombra: rgba(0, 0, 0, 0.5);
     --fonte-principal: 'Roboto', sans-serif;
 }
 
