@@ -5,11 +5,11 @@
 }
 
 :root {
-  --cor-fundo: #000000;
-  --cor-texto: #ffffff;
-  --cor-destaque: #9302be;
-  --cor-destaque-hover: #99059e;
-  --cor-sombra: rgba(0, 0, 0, 0.5);
+  --cor-fundo: #ffffff;
+  --cor-texto: #000000;
+  --cor-destaque: #b22222;
+  --cor-destaque-hover: #771717;
+  --cor-sombra: #f4f4f4;
   --fonte-principal: "Roboto", sans-serif;
 }
 
@@ -19,7 +19,9 @@ body {
   color: var(--cor-texto);
   line-height: 1.6;
 }
-
+a {
+  color: #ffffff;
+}
 header {
   text-align: center;
   background-color: var(--cor-fundo);
@@ -46,7 +48,7 @@ main {
 
 .restaurant {
   display: flex;
-  background-color: #1a1a1a;
+  background-color: #f3e69c;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 10px var(--cor-sombra);
@@ -81,12 +83,13 @@ main {
 .details a {
   text-decoration: none;
   background-color: var(--cor-destaque);
-  color: var(--cor-texto);
+  color: #ffffff; 
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-align: center;
   transition: background-color 0.3s ease;
 }
+
 
 .details a:hover {
   background-color: var(--cor-destaque-hover);
